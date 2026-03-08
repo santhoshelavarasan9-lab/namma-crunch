@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <title>Namma Crunch - Order via WhatsApp</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #fff9f0; margin: 0; text-align: center; }
+        header { background: #ff9900; color: white; padding: 20px; font-size: 30px; font-weight: bold; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .hero { background: #ffe0b3; padding: 40px; border-bottom: 3px dashed #ff9900; }
+        .product-list { display: flex; justify-content: center; gap: 25px; padding: 40px; flex-wrap: wrap; }
+        .card { background: white; border-radius: 15px; padding: 20px; width: 280px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); border: 1px solid #eee; transition: 0.3s; }
+        .card:hover { transform: translateY(-10px); }
+        .card img { width: 100%; border-radius: 10px; height: 200px; object-fit: cover; }
+        h3 { color: #cc6600; margin: 20px 0 10px; }
+        .price { color: #333; font-weight: bold; font-size: 22px; margin-bottom: 20px; }
+        
+        /* WhatsApp Button Style */
+        .whatsapp-btn { 
+            background: #25D366; 
+            color: white; 
+            text-decoration: none; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px; 
+            border-radius: 8px; 
+            font-weight: bold; 
+            font-size: 16px;
+        }
+        .whatsapp-btn:hover { background: #128C7E; }
+    </style>
+</head>
+<body>
+
+    <header>NAMMA CRUNCH</header>
+
+    <div class="hero">
+        <h1>Fresh & Crispy Homemade Snacks</h1>
+        <p>Tradition in every bite. Order directly on WhatsApp!</p>
+    </div>
+
+    <div class="product-list">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1626132647523-66f5bf380027?q=80&w=400" alt="Murukku">
+            <h3>Traditional Murukku</h3>
+            <p class="price">₹120 / 250g</p>
+            <a href="https://wa.me/919751828936?text=Hi%20Namma%20Crunch,%20I%20want%20to%20order%20Traditional%20Murukku" target="_blank" class="whatsapp-btn">
+                🛒 Order on WhatsApp
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1605197509437-09d291539191?q=80&w=400" alt="Mixture">
+            <h3>Special Mixture</h3>
+            <p class="price">₹130 / 250g</p>
+            <a href="https://wa.me/919751828936?text=Hi%20Namma%20Crunch,%20I%20want%20to%20order%20Special%20Mixture" target="_blank" class="whatsapp-btn">
+                🛒 Order on WhatsApp
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1505253149613-112d21d9f6a9?q=80&w=400" alt="Laddu">
+            <h3>Ghee Laddu</h3>
+            <p class="price">₹150 / 250g</p>
+            <a href="https://wa.me/919751828936?text=Hi%20Namma%20Crunch,%20I%20want%20to%20order%20Ghee%20Laddu" target="_blank" class="whatsapp-btn">
+                🛒 Order on WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <footer style="padding: 30px; background: #333; color: white; margin-top: 50px;">
+        <p>Contact us: +91 9751828936 | Salem, Tamil Nadu</p>
+        <p>&copy; 2026 Namma Crunch</p>
+    </footer>
+
+</body>
+</html>
